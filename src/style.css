@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 .wrapper {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                url(./images/derice-camera.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+                url(./images/abhishek-camera.jpg);    
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
 .navbar {
     height: 60px;
     width: 100%;
+    position: relative;
 }
 
 .logo {
-    width: 250px;
+    width: 200px;
     height: auto;
     padding: 10px 20px;
 }
@@ -29,13 +34,14 @@
     list-style: none;
     display: inline-block;
     margin: 0 10px;
-    line-height: 40px;
+    line-height: 80px;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     font-weight: 800;
     color: #fff;
@@ -43,8 +49,63 @@
 }
 
 .navbar ul li a:hover {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 213, 52, 0.9);
     color: #000;
     border-radius: 25px;
     cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    color: #ffd534;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 1000px;
+    text-align: center;
+    margin: 30px;
+}
+
+.content .buttons {
+    margin: 35px 330px;
+    left: 50%;
+}
+
+button{
+    width: 140px;
+    padding: 8px 0;;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background: #ffd534;
+    color: #000;
+    transition: 0.3s;
 }
