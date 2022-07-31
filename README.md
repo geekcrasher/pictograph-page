@@ -1,10 +1,7 @@
 <p align="center">
-    <img src="./images/logo-trans.png" alt="Pictograph"><br><br>
-
-    <h4> Welcome to Pictograph</h4> <br><br>
-    Pictograph offers wide range of services to every customers.
-
-    <br><br><br>
+    <img src="./src/images/logo-trans.png" alt="Pictograph"><br><br>
+    Pictograph offers a wide range of services to every customers.
+    <br><br>
 </p>
 
 <p align="center">
